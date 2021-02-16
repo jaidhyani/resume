@@ -1,0 +1,258 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COMPILATION NOTES:
+%       -install xelatex, latexmk, texlive
+%       -CLI: `xelatex resume.tex` or `latexmk -xelatex resume.tex`
+%       -for VScode integration, see: 
+%       https://stackoverflow.com/questions/56109128/enable-xelatex-in-latex-workshops-for-visual-studio-code
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{resume}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+\github
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Jai}{Dhyani}
+{ 
+    \urlstyle{same}\href{http://jaidhyani.com }{jaidhyani.com }|
+    \href{http://github.com/jaidhyani}{ github.com/jaidhyani }|
+    \href{mailto:jaidiant.descent@gmail.com}{ jaidiant.descent@gmail.com}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\textbf{Uncropping | 2021 (Ongoing)}\\
+Attempting to improve on current methods for extrapolating images
+outside of the frame ("uncropping") by integrating recent CV developments
+into an encoder/decoder + GAN architecture in Pytorch. Work in progress.
+\\
+
+\textbf{ML Consulting | 2020-2021 (Ongoing)}\\
+Contracting with businesses and organizations to improve in-house 
+data and ML pipelines. \\
+
+\textbf{BallotDropoff | 2020}\\
+Volunteering for TechForCampaigns alongside other engineers, 
+built webapp to locate  ballot dropoff locations for 
+the 2020 General Election. Built data pipelines ingesting from 
+multiple sources, location and schedule parsing, user jurisdiction 
+identification logic, per-jurisdiction ballot submission logic. 
+Handled all data for FL and GA. Over 200,000 voters assisted.
+Expected to be open sourced by 2022.
+\\
+
+\textbf{Prediction Market Analysis | 2016}\\
+Solo big data project analyzing every trade every made on a prediction market. Identified
+probable inefficiencies.
+\href{http://github.com/jaidhyani/IntradeAnalysis}{github.com/jaidhyani/IntradeAnalysis }
+\sectionsep
+
+\textbf{Powershame | 2013} \\
+Solo built app + backend; Show your friends what you did all day to discourage slacking. (no longer active)
+\href{http://github.com/jaidhyani/powershame-site}{github.com/jaidhyani/powershame-site}
+\sectionsep
+
+\textbf{Computational Linguistics REU @ UChicago | 2007}\\
+Speech synthesis in tonal languages\\
+
+\textbf{DIMACS REU @ Rutgers | 2006}\\
+Applications of SVMs in Seizure Prediction
+\\
+\\
+\section{Education}
+\subsection{Unversity of Chicago}
+\descript{ Computer Science }
+\location{ Undergraduate | Class of 2010 }
+\sectionsep
+\begin{tightemize}
+\item Concentration: Artificial Intelligence
+\item Revived then-defunct ACM and served as treasurer
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.64\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Experience}
+
+
+
+\sectionsep
+
+\runsubsection{Facebook}
+\descript{| Hate Speech Engineering}
+\location{2017 - 2020: Software Engineer - Machine Learning \& Infrastructure}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed Facebook's first proactive hate speech classifiers to identify violations of
+FB's Community Standards
+\item Developed language and region-specific classifiers to address unique market challenges
+\item Built optimized models to run billions of times per day
+\item Integrated computer vision signals to create multi-modal classifiers
+\item Integrated highly-multi-lingual transformers to improve classifier performance (XLM-R)
+\item Identified and addressed novel issues in existing training pipeline infra causing unintended classifier behavior
+\item Built custom volume-adjusted thresholding system to optimize use of labeling resources
+\item Developed stratified offline datasets to enable rapid testing and iteration.
+\item Developed fully-automated classifier iteration and deployment pipeline capable daily updates 
+across multiple languages with A/B tested pilot models
+\item Surfaced issues impacting user well-being
+\end{tightemize}
+
+\sectionsep
+
+\runsubsection{LendingRobot}
+\descript{| Peer Lending Investments}
+\location{2016 - 2017: Senior Backend Engineer; Financial Data Analyst}
+\begin{tightemize}
+\item Delivered \textbf{machine-learning investment strategy} for world's first peer-lending robo-fund
+\item Delivered weekly reports to CEO detailing investment progress and recommending improvements
+\item Built framework to develop, test, analyze, and compare investment strategies
+\item Automated collection of historical and live data from multiple peer-lending marketplaces to enable more accurate analysis
+\item Delivered consistent \textbf{5+\% returns} on automated investments
+\item Invested over \$50 million on behalf of clients
+\item Notarized investment records on the Ethereum blockchain
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Amazon}
+\descript{| AWS Networking}
+\location{2014 - 2015: Systems Engineer II}
+\begin{tightemize}
+\item Reduced testing cycle from \textbf{weeks} to \textbf{hours} by aggressively automating test processes, enabling faster deployments with higher confidence so that AWS and amazon.com can continue to scale under accelerating demand
+\item Built custom tools to automate management of highly specialized hardware.
+\item Conceived/built/deployed novel Docker deployment to remove a hardware bottleneck by isolating network activity per interface
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Democratic National Committee}
+\descript{| Systems Engineering}
+\location{2011 - 2013 : Linux Systems Engineer | 2013 : Lead Systems Engineer}
+\begin{tightemize}
+\item Built, deployed, and proactively responded to thousands of custom metrics to maintain voter databases, application backends, databases, email, and other critical campaign infrasturure 24/7
+\item Revamped backup system to achieve better fidelity, 2x cheaper and 3x faster
+\item Delivered empirical cost-benefit analysis between different deployment strategies, saving hundreds of thousands of dollars
+\item Built system to capture nightly snapshots of web pages and compare differences across time; Used by researchers, national debate prep
+% \item Built and maintained network infrastructure to connect physical servers, complex AWS deployments, and remote users.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS / ACTIVITIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsection{ACM}
+% \descript{Treasurer}
+% \location{UChicago}
+% Revived Defunct ACM at UChicago \\
+% Organized Lectures, Hackathons, Competitions \\
+% \sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Publications}
+% \renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+% \bibliographystyle{abbrv}
+% \bibliography{publications}
+% \nocite{*}
+
+\end{minipage}
+\end{document}  \documentclass[]{article}
