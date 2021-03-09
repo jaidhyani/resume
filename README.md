@@ -1,4 +1,4 @@
-I've taken the classic Deedy template and done some unseemly things to it over the years to get it to look the way I wanted it to. It still more or less works, but it's a little fragile - suggest use live updating during editing to make sure nothing is going amiss.
+I've taken the classic Deedy template and done some unseemly things to it over the years to get it to look the way I wanted it to. It still more or less works, but it's a little fragile. Use live updating during editing so you can notice when things get weird.
 
 # COMPILATION NOTES (PDF):
  - install xelatex, latexmk, texlive

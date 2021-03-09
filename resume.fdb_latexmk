@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1613482250 "resume.xdv" "resume.pdf" "resume" 1613482250
-  "resume.xdv" 1613482250 49316 21acdcd8a864af93985d152699db2a4e "xelatex"
+["xdvipdfmx"] 1615332657 "resume.xdv" "resume.pdf" "resume" 1615332657
+  "resume.xdv" 1615332657 49132 f034239d343da72708bbd38d30afaece "xelatex"
   (generated)
   "resume.pdf"
-["xelatex"] 1613482250 "/home/jai/resume/resume.tex" "resume.xdv" "resume" 1613482250
+["xelatex"] 1615332657 "/home/jai/resume/resume.tex" "resume.xdv" "resume" 1615332657
   "/etc/texmf/web2c/texmf.cnf" 1612559937 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jai/resume/resume.tex" 1613482249 9029 b9333120e23f5b57fe33fc021a98c86a ""
+  "/home/jai/resume/resume.tex" 1615332656 9006 d3a7a7cd1240417c0ff089d4ceec280d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -67,12 +67,12 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1612561189 3335534 eed522d5169343090f21178cebd28810 ""
-  "resume.aux" 1613482250 1073 0b34a15bf79823d6998d931b4f9ae70b "xelatex"
-  "resume.cls" 1613000352 3056 81cc6fef4aff1fc58fc98c61ecd88107 ""
-  "resume.out" 1613482250 207 372ca5294c002cbffceb032ced4c9677 "xelatex"
-  "resume.tex" 1613482249 9029 b9333120e23f5b57fe33fc021a98c86a ""
+  "resume.aux" 1615332657 1073 0b34a15bf79823d6998d931b4f9ae70b "xelatex"
+  "resume.cls" 1615330563 3056 81cc6fef4aff1fc58fc98c61ecd88107 ""
+  "resume.out" 1615332657 207 372ca5294c002cbffceb032ced4c9677 "xelatex"
+  "resume.tex" 1615332656 9006 d3a7a7cd1240417c0ff089d4ceec280d ""
   (generated)
+  "resume.out"
+  "resume.log"
   "resume.xdv"
   "resume.aux"
-  "resume.log"
-  "resume.out"
