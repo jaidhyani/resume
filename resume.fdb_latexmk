@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1615398038 "resume.xdv" "resume.pdf" "resume" 1615398038
-  "resume.xdv" 1615398038 49612 87db37f1d8ed40fb8af88d55215d657d "xelatex"
+["xdvipdfmx"] 1615398185 "resume.xdv" "resume.pdf" "resume" 1615398185
+  "resume.xdv" 1615398185 49436 26dd6b96e7522248e2780c550ba14011 "xelatex"
   (generated)
   "resume.pdf"
-["xelatex"] 1615398037 "/home/jai/resume/resume.tex" "resume.xdv" "resume" 1615398038
+["xelatex"] 1615398184 "/home/jai/resume/resume.tex" "resume.xdv" "resume" 1615398185
   "/etc/texmf/web2c/texmf.cnf" 1612559937 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jai/resume/resume.tex" 1615398037 9117 2d04a4b721d86348baa6bb092a315c87 ""
+  "/home/jai/resume/resume.tex" 1615398184 9100 2692a750fc200592ed52d5771437948e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -67,12 +67,12 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1612561189 3335534 eed522d5169343090f21178cebd28810 ""
-  "resume.aux" 1615398038 1073 0b34a15bf79823d6998d931b4f9ae70b "xelatex"
+  "resume.aux" 1615398185 1073 0b34a15bf79823d6998d931b4f9ae70b "xelatex"
   "resume.cls" 1615330563 3056 81cc6fef4aff1fc58fc98c61ecd88107 ""
-  "resume.out" 1615398038 207 372ca5294c002cbffceb032ced4c9677 "xelatex"
-  "resume.tex" 1615398037 9117 2d04a4b721d86348baa6bb092a315c87 ""
+  "resume.out" 1615398185 207 372ca5294c002cbffceb032ced4c9677 "xelatex"
+  "resume.tex" 1615398184 9100 2692a750fc200592ed52d5771437948e ""
   (generated)
-  "resume.aux"
-  "resume.log"
   "resume.out"
+  "resume.log"
+  "resume.aux"
   "resume.xdv"
