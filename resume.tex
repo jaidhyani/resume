@@ -85,73 +85,6 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Projects}
-
-\sectionsep
-
-\textbf{ML Consulting | 2020-2021 (Ongoing)}\\
-Consulting on/Implementing ML projects for small businesses with
-resource constrains on deadline, focusing on NLP/transformers. 
-Recently built a presentation-ready novel classifier in under 72 hours.
-\sectionsep
-
-
-\textbf{Uncropping | 2021 (Ongoing)}\\
-Extrapolating images beyond the frame ("uncropping") by integrating recent CV developments
-into an encoder/decoder + GAN architecture in Pytorch. Work in progress.
-\sectionsep
-
-\textbf{TfC BallotDropoff | 2020}\\
-Volunteering for TechForCampaigns alongside other engineers, 
-built webapp to locate  ballot dropoff locations for 
-the 2020 General Election. Built data pipelines ingesting from 
-multiple sources, location and schedule parsing, user jurisdiction 
-identification logic, per-jurisdiction ballot submission logic. 
-Handled all data for FL \& GA, plus Civic Info API support. Over 
-200,000 voters assisted.\\
-\href{https://github.com/tfc-code/dropoff-locations}{\quad github.com/tfc-code/dropoff-locations}
-\sectionsep
-
-\textbf{Prediction Market Analysis | 2016}\\
-Solo big data project analyzing every trade every made on a prediction market. Identified
-probable inefficiencies.\\
-\href{http://github.com/jaidhyani/IntradeAnalysis}{\quad github.com/jaidhyani/IntradeAnalysis }
-\sectionsep
-
-\textbf{Powershame | 2013} \\
-Solo built app + backend; Broadcast desktop timelapse to discourage slacking. (no longer active)
-\sectionsep
-
-\textbf{CompLing REU @ UChicago | 2007}\\
-Speech synthesis in tonal languages
-\sectionsep
-
-\textbf{DIMACS REU @ Rutgers | 2006}\\
-Applications of SVMs in Seizure Prediction
-\\
-\section{Education}
-\subsection{Unversity of Chicago}
-\descript{ Computer Science }
-\location{ Undergraduate | Class of 2010 }
-\sectionsep
-\begin{tightemize}
-\item Concentration: Artificial Intelligence
-\item Revived then-defunct ACM and served as treasurer
-\end{tightemize}
-\sectionsep
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -160,34 +93,64 @@ Applications of SVMs in Seizure Prediction
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{minipage}
+
 \hfill
-\begin{minipage}[t]{0.64\textwidth}
+\begin{minipage}[t]{1.0\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% EXPERIENCE
+% \section{}
 
-\section{Experience}
 
 
 
-\sectionsep
+
+\runsubsection{Independent Contractor}
+\descript{| Short-term Engagements}
+\location{2020 - 2023}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\runsubsection{Temple Capital}
+\descript{| Quantitative Investing Strategies}
+\location{2022: ML Engineering Consultant}
+\begin{tightemize}
+    \item Optimized custom in-house Julia investment strategy analysis engine
+    \item Added support for synthetic assets to investment analysis platform
+    \columnbreak
+    \item Independently built CI/CD Pipeline from Scratch
+    \item Established org-wide coding style guidelines and formatting
+\end{tightemize}
+
+\runsubsection{Blue Rose Research}
+\descript{| Public Opinion Modeling \& Research}
+\location{2021: Senior Machine Learning Engineer}
+
+\begin{tightemize}
+    \item Optimized TF-Probability Variational Inference pipelines inferring public opinion distributions given noisy data
+    
+    \columnbreak
+
+    \item Optimized database queries to reduce time-consuming operations to a fraction of their original duration
+    
+\end{tightemize}
 
 \runsubsection{Facebook}
 \descript{| Hate Speech Engineering}
 \location{2017 - 2020: Software Engineer - Machine Learning \& Infrastructure}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Developed Facebook's first proactive hate speech classifiers to identify violations of
-FB's Community Standards
-\item Addressed unique market challenges with language, dialect, and market-specific classifiers.
-\item Built optimized models to run billions of times per day
+\item Developed Facebook's first proactive hate speech classifiers in English, French, Arabic, and Portuguese
+\item Met with market-specific subject matter experts to identify and address unique market challenges in specific regions
+\item Optimized models to run billions of times per day
 \item Integrated computer vision signals to create multi-modal classifiers
 \item Integrated highly-multi-lingual transformers to improve classifier performance (XLM-R)
 \item Identified and addressed novel issues in existing training pipeline infra causing unintended classifier behavior
-\item Built custom volume-adjusted thresholding system to optimize use of labeling resources
+
+\columnbreak
+
+\item Built custom volume-adjusted thresholding system to optimize use of human experts' time to maximize per-sample training value while prioritizing high-impact content
 \item Developed stratified offline datasets to enable rapid testing and iteration.
 \item Built fully-automated classifier deployment pipeline capable of daily updates 
 across multiple languages with A/B tested pilot models
@@ -200,12 +163,10 @@ across multiple languages with A/B tested pilot models
 \descript{| Peer Lending Investments}
 \location{2016 - 2017: Senior Backend Engineer; Financial Data Analyst}
 \begin{tightemize}
-\item Delivered \textbf{machine-learning investment strategy} for world's first peer-lending robo-fund
-\item Delivered weekly reports to CEO detailing investment progress and recommending improvements
-\item Built framework to develop, test, analyze, and compare investment strategies
-\item Automated collection of historical and live data from multiple peer-lending marketplaces to enable more accurate analysis
-\item Delivered consistent \textbf{5+\% returns} on automated investments
-\item Invested over \$50 million on behalf of clients
+\item Delivered \textbf{machine-learning investment strategy} for world's first peer-lending automated portfolio platform
+\item Weekly reports to CEO on investments/tech/recommendations
+\item Automated data collection from multiple sources
+\item Delivered consistent  \textbf{6.5+\% returns} on over \$50 million of client investments
 \item Notarized investment records on the Ethereum blockchain
 \end{tightemize}
 \sectionsep
@@ -214,9 +175,12 @@ across multiple languages with A/B tested pilot models
 \descript{| AWS Networking}
 \location{2014 - 2015: Systems Engineer II}
 \begin{tightemize}
-\item Reduced testing cycle from \textbf{weeks} to \textbf{hours} by aggressively automating test processes, enabling faster deployments with higher confidence so that AWS and amazon.com can continue to scale under accelerating demand
+\item Automated testing pipeline for the custom networking software AWS runs on physical routers, reducing testing cycle from weeks to hours
 \item Built custom tools to automate management of highly specialized hardware.
-\item Conceived/built/deployed novel Docker deployment to remove a hardware bottleneck by isolating network activity per interface
+
+\columnbreak
+
+\item Built novel Docker deployment to enable multiple teams to test physical network interfaces on a device in isolation from each other
 \end{tightemize}
 \sectionsep
 
@@ -224,14 +188,25 @@ across multiple languages with A/B tested pilot models
 \descript{| Systems Engineering}
 \location{2011 - 2013 : Linux Systems Engineer | 2013 : Lead Systems Engineer}
 \begin{tightemize}
-\item Built, deployed, and proactively responded to thousands of custom metrics to maintain voter databases, application backends, databases, email, and other critical campaign infrasturure 24/7
+\item Built/owned 1000's of metrics to maximize uptime of critical infra 24/7
 \item Revamped backup system to achieve better fidelity, 2x cheaper and 3x faster
-\item Delivered empirical cost-benefit analysis between different deployment strategies, saving hundreds of thousands of dollars
-\item Built system to capture nightly snapshots of web pages and compare differences across time; Used by researchers, national debate prep
+\item Saved over \$100k by analyzing TCO on physical vs cloud DB solutions
+\item Supported multiple teams by building an automated webpage capture system
 % \item Built and maintained network infrastructure to connect physical servers, complex AWS deployments, and remote users.
 \end{tightemize}
 \sectionsep
+\end{minipage}
 
+\runsubsection{University of Chicago}
+\descript{| Undergraduate}
+\location{Class of 2010: Computer Science with a Concentration in Artificial Intelligence}
+
+% remive trailing blank page
+\let\clearpage\relax
+
+
+\end{document}  
+\documentclass[]{article}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -259,5 +234,3 @@ across multiple languages with A/B tested pilot models
 % \bibliography{publications}
 % \nocite{*}
 
-\end{minipage}
-\end{document}  \documentclass[]{article}

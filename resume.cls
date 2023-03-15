@@ -11,6 +11,7 @@
 % Package Imports
 \usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry}
 \usepackage[hidelinks]{hyperref}
+\usepackage{multicol}
 
 % Publications
 \usepackage{cite}
@@ -83,7 +84,8 @@ Last Updated on \today
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
 
 % Bullet Lists with fewer gaps command
-\newenvironment{tightemize}{
-\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
-{\end{itemize}\vspace{-\topsep}}
+
+\newenvironment{tightemize}{%
+  \vspace{-\topsep}\begin{multicols}{2}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
+  {\end{itemize}\end{multicols}\vspace{-\topsep}}
 
