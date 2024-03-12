@@ -1,1 +1,5 @@
 *.log
+*.fls
+*.gz
+*.xdv
+*.out
