@@ -3,4 +3,4 @@
 *.gz
 *.xdv
 *.out
-resume.xdv
+*.fdb_latexmk
