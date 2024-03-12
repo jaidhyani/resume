@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1710203557 "resume.xdv" "resume.pdf" "resume" 1710203558 0
-  "resume.xdv" 1710203557 37664 99d3d921085d655c5e8d921f4e867757 "xelatex"
+["xdvipdfmx"] 1710205863 "resume.xdv" "resume.pdf" "resume" 1710205863 0
+  "resume.xdv" 1710205863 40836 7848ba56417f2cf3253e5192dc38b9f6 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1710203557 "/Users/jaidhyani/resume/resume.tex" "resume.xdv" "resume" 1710203558 0
-  "/Users/jaidhyani/resume/resume.tex" 1710203556 7128 0ad0311386d68d19b59ecd820829fc9e ""
+["xelatex"] 1710205863 "/Users/jaidhyani/resume/resume.tex" "resume.xdv" "resume" 1710205863 0
+  "/Users/jaidhyani/resume/resume.tex" 1710205862 7296 8c156da9fa2080b70fa0b12ca0b762a1 ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1678549815 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1678549815 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -68,10 +68,10 @@
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1678549815 56148 51a9a8571c07b9921892ae11063ae853 ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/web2c/texmf.cnf" 1678549815 40748 4081c8bc921e56c865f975bd762e388c ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-var/web2c/xetex/xelatex.fmt" 1678549815 10503179 81b97e972a84f7c44f1a58905edf8a05 ""
-  "resume.aux" 1710203557 520 9c1a709c014649c32e70d4a7a33299d3 "xelatex"
-  "resume.cls" 1710202376 3119 6650b9e4d23c04bb7c98660737c87567 ""
-  "resume.out" 1710203557 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "resume.tex" 1710203556 7128 0ad0311386d68d19b59ecd820829fc9e ""
+  "resume.aux" 1710205863 520 9c1a709c014649c32e70d4a7a33299d3 "xelatex"
+  "resume.cls" 1710204816 3119 796bd4be8e0862bf886ce0eb4d0e9678 ""
+  "resume.out" 1710205863 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "resume.tex" 1710205862 7296 8c156da9fa2080b70fa0b12ca0b762a1 ""
   (generated)
   "resume.aux"
   "resume.log"

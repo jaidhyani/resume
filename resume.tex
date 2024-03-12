@@ -21,25 +21,6 @@
 % on which the font is used and either change it to a font included with your
 % operating system or comment the line out to use the default font.
 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Known Issues:
@@ -107,21 +88,34 @@
 
 
 
-
-\runsubsection{Independent Contractor}
-\descript{| Short-term Engagements}
-\location{2020 - 2023}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\runsubsection{Delphi ("TinyEvals")}
+\descript{ | github.com/delphi-suite/delphi}
+\location{2024 - Present: Evals Technical Lead}
+\begin{tightemize}
+    \item Leading team of software engineers and researchers to develop infrastructure for training and evaluating small language models
+    \item Rewrote model training pipeline for significantly improved reliability, speed, and configurability
+\end{tightemize}
+
+\runsubsection{Rational Animations}
+\descript{ | Scriptwriting}
+\location{2023 - Present}
+\begin{tightemize}
+    \item Writing, editing, and consulting on scripts about AI Alignment, Effective Altruism, and related topics.
+    \columnbreak
+    \item Scripts written by me went on to become videos with over one million cumulative views (as of March 2024)
+\end{tightemize}
 
 \runsubsection{Temple Capital}
 \descript{| Quantitative Investing Strategies}
 \location{2022: ML Engineering Consultant}
 \begin{tightemize}
-    \item Optimized custom in-house Julia investment strategy analysis engine
-    \item Expanded support for synthetic assets to investment analysis platform
+    \item Optimized custom in-house investment analysis engine
+    \item Expanded support for synthetic assets 
     \columnbreak
-    \item Independently built CI/CD Pipeline from Scratch
-    \item Established org-wide coding style guidelines and formatting
+    \item Built CI/CD Pipeline from Scratch
+    \item Established coding style and formatting guidelines
 \end{tightemize}
 
 \runsubsection{Blue Rose Research}
@@ -142,7 +136,6 @@
 \location{2017 - 2020: Software Engineer - Machine Learning \& Infrastructure}
 \begin{tightemize}
 \item Developed Facebook's first proactive hate speech classifiers in English, French, Arabic, and Portuguese
-\item Met with market-specific subject matter experts to identify and address unique market challenges in specific regions
 \item Optimized models to run billions of times per day
 \item Integrated computer vision signals to create multi-modal classifiers
 \item Integrated highly-multi-lingual transformers to improve classifier performance (XLM-R)
@@ -157,8 +150,6 @@ across multiple languages with A/B tested pilot models
 \item Surfaced issues impacting user well-being
 \end{tightemize}
 
-\sectionsep
-
 \runsubsection{LendingRobot}
 \descript{| Peer Lending Investments}
 \location{2016 - 2017: Senior Backend Engineer; Financial Data Analyst}
@@ -169,7 +160,6 @@ across multiple languages with A/B tested pilot models
 \item Delivered consistent  6.5+\% returns on over \$50 million of client investments
 \item Notarized investment records on the Ethereum blockchain
 \end{tightemize}
-\sectionsep
 
 \runsubsection{Amazon}
 \descript{| AWS Networking}
@@ -183,6 +173,7 @@ across multiple languages with A/B tested pilot models
 \item Built novel Docker deployment to enable multiple teams to test physical network interfaces on a device in isolation from each other
 \end{tightemize}
 \sectionsep
+\end{minipage}
 
 \runsubsection{Democratic National Committee}
 \descript{| Systems Engineering}
@@ -194,15 +185,7 @@ across multiple languages with A/B tested pilot models
 \item Supported multiple teams by building an automated webpage capture system
 % \item Built and maintained network infrastructure to connect physical servers, complex AWS deployments, and remote users.
 \end{tightemize}
-\sectionsep
-\end{minipage}
 
-\runsubsection{University of Chicago}
-\descript{| Undergraduate}
-\location{Class of 2010: Computer Science with a Concentration in Artificial Intelligence}
-
-% remive trailing blank page
-\let\clearpage\relax
 
 
 \end{document}  
