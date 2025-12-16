@@ -4,3 +4,4 @@
 *.xdv
 *.out
 *.fdb_latexmk
+*.aux
