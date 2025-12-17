@@ -45,7 +45,7 @@ Last Updated on \today
 \end{textblock}}
 
 % Name command
-\newcommand{\namesection}[3]{
+\newcommand{\namesection}[4]{
 \centering{
 \fontsize{40pt}{60pt}
 \fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #1
@@ -54,15 +54,19 @@ Last Updated on \today
 \centering{
 \color{headings}
 \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
+\\[8pt]
+\centering{
+\color{primary}
+\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{10pt}{12pt}\selectfont #4}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
-\vspace{-15pt}
+\vspace{-5pt}
 }
 
 % Section seperators
 \usepackage{titlesec}
 \titlespacing{\section}{0pt}{0pt}{0pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
-\newcommand{\sectionsep}{\vspace{8pt}}
+\newcommand{\sectionsep}{\vspace{12pt}}
 
 % Headings command
 \titleformat{\section}{\color{headings}
@@ -87,5 +91,5 @@ Last Updated on \today
 % Bullet Lists with fewer gaps command
 
 \newenvironment{tightemize}{%
-  \vspace{-\topsep}\begin{multicols}{2}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
-  {\end{itemize}\end{multicols}\vspace{-\topsep}}
+  \vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
+  {\end{itemize}\vspace{-\topsep}}
